@@ -18,7 +18,7 @@ A função `printf1();` tem várias frases pré defininas para que eu escolhesse
 Para que ficasse mais formal e que o cliente tivesse noção do que os botões faziam, implementei um menu onde está dentro de um _for(;;)_ e um _switch(slot)_, a utilização de _cases_ ficaria mais fácil para direcionar as aplicações
 
 ![55](https://user-images.githubusercontent.com/75506742/101369249-d6799f00-3886-11eb-88eb-4f868e16f6c8.png)
-![66](https://user-images.githubusercontent.com/75506742/101369246-d5e10880-3886-11eb-8525-de6bf085a0fe.png)
+![AAa](https://user-images.githubusercontent.com/75506742/101372002-2e65d500-388a-11eb-8251-053d99e4b1ca.png)
 
 Como já supracitado, a função _printf1();_ foi constantemente utilizada para imprimir todas as opções, além disso foi acompanhada por funções que faziam a limpeza do LCD ou pular a linha para que coubesse as frases, como também atrasos para que o indivíduo pudesse ler com um tempo adequada para memorizar.
 
