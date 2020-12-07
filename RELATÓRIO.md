@@ -30,7 +30,7 @@ Como já citado, o _looping_ infito carrega com sigo mesmo um _switch_, onde o _
 
 ## Step 5: Funcionamento da ventoinha
 
-A ventoinha tem uma função muito importante para que o sistema fique em temperaturas ideais, porém é necessário ter requisitos para que ela funcione de forma adequada, para isso tive que usar uma variável para verificar se duas opções estão ligadas ou desligadas, ou seja, a variável _vrf_ (verficar se a mesma está on(1) ou off(0)) e _vrfa_ (verficar se o modo automatico esta on(1) ou off(0)), com estas definições, faz que o sistema não tenha conflitos, por consequência há uma fluidez em todo programa.
+A ventoinha tem uma função muito importante para que o sistema fique em temperaturas ideais, porém é necessário ter requisitos para que ela funcione de forma adequada, para isso tive que usar uma variável para verificar se duas opções estão ligadas ou desligadas, ou seja, a variável _vrf_ (verficar se a mesma está on[1] ou off[0]) e _vrfa_ (verficar se o modo automatico esta on[1]) ou off[0]), com estas definições, faz que o sistema não tenha conflitos, por consequência há uma fluidez em todo programa.
 
 ![100](https://user-images.githubusercontent.com/75506742/101371770-e777df80-3889-11eb-825a-4423d1608e79.png)
 
