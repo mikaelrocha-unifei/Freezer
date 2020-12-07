@@ -1,4 +1,4 @@
-## Step 1:Passos iniciais para começar a programar
+## Step 1: Passos iniciais para começar a programar
 
 Para isso tive que pensar como poderia montar algo que se assemelhasse com um real _Freezer_, para tal tive que definir as opçoes para mostrar no LCD, entratanto as opções de ligar/desligar ventoinha e mostrar a temperatura seria algo muito simples, além disso a pessoa não teria paciência de ir no seu _Freezer_ e ficar toda hora verificando temperatura e ligando a ventoinha para manter nos padrões de fábrica, para isso implementei uma forma que ficasse automático, sem a necessidade do indivíduo ficar mexendo.
 
@@ -14,3 +14,14 @@ A função `printf1();` tem várias frases pré defininas para que eu escolhesse
 
 
 ## Step 3: O Funcionamento do menu
+
+Para que ficasse mais formal e que o cliente tivesse noção do que os botões faziam, implementei um menu onde está dentro de um _for(;;)_ e um _switch(slot)_, a utilização de _cases_ ficaria mais fácil para direcionar as aplicações
+
+![55](https://user-images.githubusercontent.com/75506742/101369249-d6799f00-3886-11eb-88eb-4f868e16f6c8.png)
+![66](https://user-images.githubusercontent.com/75506742/101369246-d5e10880-3886-11eb-8525-de6bf085a0fe.png)
+
+Como já supracitado, a função _printf1();_ foi constantemente utilizada para imprimir todas as opções, além disso foi acompanhada por funções que faziam a limpeza do LCD ou pular a linha para que coubesse as frases, como também atrasos para que o indivíduo pudesse ler com um tempo adequada para memorizar.
+
+## Step 4: Varredura do teclado matricial
+
+Como já citado, o _looping_ infito carrega com sigo mesmo um _switch_, onde o _slot = 1_ está a parte onde há a leitura de qual tecla está pressionada, além disso as opções são definidos por um _if();_, isso é, aqui que onde acontece tudo
