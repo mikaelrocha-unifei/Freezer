@@ -44,4 +44,14 @@ Após a verificação, as dois caminhos levam para um _slot = 2_, onde há _if()
 
 ![112](https://user-images.githubusercontent.com/75506742/101373403-a7196100-388b-11eb-9609-bb316fecc0f9.png)
 
-Logo depois, há uma função que "randomiza" a temperatura, tal função tem o nome de _temperaturaV();_, onde ela recebe valores de _vrfa_ e _vrf_ para saber qual temperatura tem que entregar, mas como estamos trabalhando com o modo automático, a temperatura que está definição irá trabalhar vai ser entre 0°C e 6°C, pois queremos fazer que ela ligue e desligue automaticamente e para isso temos que fazer que a temperatura trabalhe entre essses picos.
+Logo depois, há uma função que "randomiza" a temperatura, tal função tem o nome de _temperaturaV();_, onde ela recebe valores de _vrfa_ e _vrf_ para saber qual temperatura tem que entregar, mas como estamos trabalhando com o modo automático, a temperatura que está definição irá trabalhar vai ser entre 0°C e 6°C, pois queremos fazer que ela ligue e desligue automaticamente e para isso temos que fazer que a temperatura trabalhe entre esses picos.
+
+![BBB](https://user-images.githubusercontent.com/75506742/101374911-881bce80-388d-11eb-9d70-2f1033978bbe.png)
+
+Em certo momento a temperatura ficará em 6°C, fazendo que o _Buzzer_ ative e ligue a ventoinha para esfriar, por consequêcia, irá diminuir tanto a temperatura que vai chegar em um ponto que a temperatura ficára abaixo de 1°C, fazendo que também ative o _Buzzer_, porém a ventoinha será desligada.
+
+![BBBB](https://user-images.githubusercontent.com/75506742/101374972-9b2e9e80-388d-11eb-958b-272522f3c9b7.png)
+
+## Conclusão
+
+Com semanas árduas apenas programando e corrigindo problemas, tive um ótimo resultado após finalizar, tudo que tinha planejado foi concluído e dentro dos conformes que ambos professores pediram, queria agradecer ao professores Rodrigo e Otávio por nos proporcionar uma ótima didática.
