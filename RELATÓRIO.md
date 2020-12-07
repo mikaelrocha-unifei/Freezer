@@ -15,7 +15,7 @@ A função `printf1();` tem várias frases pré defininas para que eu escolhesse
 
 ## Step 3: O Funcionamento do menu
 
-Para que ficasse mais formal e que o cliente tivesse noção do que os botões faziam, implementei um menu onde está dentro de um _for(;;)_ e um _switch(slot)_, a utilização de _cases_ ficaria mais fácil para direcionar as aplicações
+Para que ficasse mais formal e que o cliente tivesse noção do que os botões faziam, implementei um menu onde está dentro de um _for( ; ; )_ e um _switch(slot)_, a utilização de _cases_ ficaria mais fácil para direcionar as aplicações
 
 ![55](https://user-images.githubusercontent.com/75506742/101369249-d6799f00-3886-11eb-88eb-4f868e16f6c8.png)
 ![AAa](https://user-images.githubusercontent.com/75506742/101372002-2e65d500-388a-11eb-8251-053d99e4b1ca.png)
@@ -30,6 +30,8 @@ Como já citado, o _looping_ infito carrega com sigo mesmo um _switch_, onde o _
 
 ## Step 5: Funcionamento da ventoinha
 
-A ventoinha tem uma função muito importante para que o sistema fique em temperaturas ideais, porém é necessário ter requisitos para que ela funcione de forma adequada, para isso tive que usar uma variável para verificar se duas opções estão ligadas ou desligadas, ou seja, a variável _vrf_(verficar se a mesma está on == 1 ou off == 0) e _vrfa_(verficar se o modo automatico esta ligada == 1)
+A ventoinha tem uma função muito importante para que o sistema fique em temperaturas ideais, porém é necessário ter requisitos para que ela funcione de forma adequada, para isso tive que usar uma variável para verificar se duas opções estão ligadas ou desligadas, ou seja, a variável _vrf_ (verficar se a mesma está on(1) ou off(0)) e _vrfa_ (verficar se o modo automatico esta on(1) ou off(0)), com estas definições, faz que o sistema não tenha conflitos, por consequência há uma fluidez em todo programa.
+
+![100](https://user-images.githubusercontent.com/75506742/101371770-e777df80-3889-11eb-825a-4423d1608e79.png)
 
 
