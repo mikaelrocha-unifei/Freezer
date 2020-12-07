@@ -13,7 +13,7 @@ A função `printf1();` tem várias frases pré defininas para que eu escolhesse
 ![33](https://user-images.githubusercontent.com/75506742/101366822-2e62d680-3884-11eb-9e1f-f64b0fc985a7.png)
 
 
-## Step 3: O Funcionamento do menu
+## Step 3: O Funcionamento do Menu
 
 Para que ficasse mais formal e que o cliente tivesse noção do que os botões faziam, implementei um menu onde está dentro de um _for( ; ; )_ e um _switch(slot)_, a utilização de _cases_ ficaria mais fácil para direcionar as aplicações
 
@@ -22,16 +22,20 @@ Para que ficasse mais formal e que o cliente tivesse noção do que os botões f
 
 Como já supracitado, a função _printf1();_ foi constantemente utilizada para imprimir todas as opções, além disso foi acompanhada por funções que faziam a limpeza do LCD ou pular a linha para que coubesse as frases, como também atrasos para que o indivíduo pudesse ler com um tempo adequada para memorizar.
 
-## Step 4: Varredura do teclado matricial
+## Step 4: Varredura do Teclado Matricial
 
 Como já citado, o _looping_ infito carrega com sigo mesmo um _switch_, onde o _slot = 1_ está a parte onde há a leitura de qual tecla está pressionada, além disso as opções são definidos por um _if();_, isso é, as teclas terão seus trabalhos programados aqui:
 
 ![77](https://user-images.githubusercontent.com/75506742/101370801-b814a300-3888-11eb-8e17-06d5cb01061f.png)
 
-## Step 5: Funcionamento da ventoinha
+## Step 5: Funcionamento da Ventoinha
 
 A ventoinha tem uma função muito importante para que o sistema fique em temperaturas ideais, porém é necessário ter requisitos para que ela funcione de forma adequada, para isso tive que usar uma variável para verificar se duas opções estão ligadas ou desligadas, ou seja, a variável _vrf_ (verficar se a mesma está on[1] ou off[0]) e _vrfa_ (verficar se o modo automatico esta on[1]) ou off[0]), com estas definições, faz que o sistema não tenha conflitos, por consequência há uma fluidez em todo programa.
 
 ![100](https://user-images.githubusercontent.com/75506742/101371770-e777df80-3889-11eb-825a-4423d1608e79.png)
+
+## Step 6: Funcionamento do Modo Automatico
+
+Para que isso funcionasse tive que definir alguns _if();_ para que desligasse a ventoinha para que ela mesmo pudesse ligar ou desligar automaticamente
 
 
