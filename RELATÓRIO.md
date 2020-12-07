@@ -34,8 +34,14 @@ A ventoinha tem uma função muito importante para que o sistema fique em temper
 
 ![100](https://user-images.githubusercontent.com/75506742/101371770-e777df80-3889-11eb-825a-4423d1608e79.png)
 
-## Step 6: Funcionamento do Modo Automatico
+## Step 6: Funcionamento do Modo Automático
 
 Para que isso funcionasse tive que definir alguns _if();_ para que desligasse a ventoinha para que ela mesmo pudesse ligar ou desligar automaticamente
 
+![111](https://user-images.githubusercontent.com/75506742/101373401-a680ca80-388b-11eb-8e13-00accea16cb2.png)
 
+Após a verificação, as dois caminhos levam para um _slot = 2_, onde há _if();_ que define se o modo automático está ligado (_vrfa_ = 1) ou desligado (_vrfa_ = 0), para não dar conflitos a funções que desligam a ventoinha para que entre nesse modo.
+
+![112](https://user-images.githubusercontent.com/75506742/101373403-a7196100-388b-11eb-9609-bb316fecc0f9.png)
+
+Logo depois, há uma função que "randomiza" a temperatura, tal função tem o nome de _temperaturaV();_, onde ela recebe valores de _vrfa_ e _vrf_ para saber qual temperatura tem que entregar, mas como estamos trabalhando com o modo automático, a temperatura que está definição irá trabalhar vai ser entre 0°C e 6°C, pois queremos fazer que ela ligue e desligue automaticamente e para isso temos que fazer que a temperatura trabalhe entre essses picos.
