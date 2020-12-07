@@ -24,4 +24,12 @@ Como já supracitado, a função _printf1();_ foi constantemente utilizada para 
 
 ## Step 4: Varredura do teclado matricial
 
-Como já citado, o _looping_ infito carrega com sigo mesmo um _switch_, onde o _slot = 1_ está a parte onde há a leitura de qual tecla está pressionada, além disso as opções são definidos por um _if();_, isso é, aqui que onde acontece tudo
+Como já citado, o _looping_ infito carrega com sigo mesmo um _switch_, onde o _slot = 1_ está a parte onde há a leitura de qual tecla está pressionada, além disso as opções são definidos por um _if();_, isso é, as teclas terão seus trabalhos programados aqui:
+
+![77](https://user-images.githubusercontent.com/75506742/101370801-b814a300-3888-11eb-8e17-06d5cb01061f.png)
+
+## Step 5: Funcionamento da ventoinha
+
+A ventoinha tem uma função muito importante para que o sistema fique em temperaturas ideais, porém é necessário ter requisitos para que ela funcione de forma adequada, para isso tive que usar uma variável para verificar se duas opções estão ligadas ou desligadas, ou seja, a variável _vrf_(verficar se a mesma está on == 1 ou off == 0) e _vrfa_(verficar se o modo automatico esta ligada == 1)
+
+
